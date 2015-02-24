@@ -20,4 +20,4 @@ new InputItemizer(element, [object options]);
 Option | Type | Default | Description
 ------ | ---- | ------- | -----------
 seperator | string | ,  | The string to seperate the values
-operator | string | : | If you want to save a different value from what is displayed (Like an ID), add the value with this string as the operator. E.g. key:value. The key will be saved, and the value with be displayed.
+operator | string | : | If you want to save a different value from what is displayed (Like an ID), add the value with this string as the operator. E.g. key:value. The key will be saved, and the value will be displayed.
