@@ -1,0 +1,42 @@
+$input-itemizer-padding: .3em !default;
+$input-itemizer-gutter-width: .3em !default;
+$input-itemizer-background-color: #efefef !default;
+$input-itemizer-token-color: #ffffff !default;
+
+.input-itemizer {
+	background: #efefef;
+	padding: $input-itemizer-gutter-width $input-itemizer-gutter-width 0;
+	border-radius: 4px;
+
+	&::after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+
+	.input-itemizer-input {
+		background: transparent;
+		border: none;
+		outline: none;
+		padding: $input-itemizer-gutter-width;
+		margin: 0 0 $input-itemizer-gutter-width 0;
+		box-sizing: border-box;
+	}
+	.input-itemizer-token, .input-itemizer-spacer {
+		display: block;
+		float: left;
+		padding: $input-itemizer-gutter-width 0;
+		margin-bottom: $input-itemizer-gutter-width;
+	}
+	.input-itemizer-token {
+		background: #fff;
+		padding: $input-itemizer-gutter-width;
+		margin-right: $input-itemizer-gutter-width;
+	}
+	.input-itemizer-remove {
+		margin-left: .1em;
+		text-decoration: none;
+		color: #333333;
+		padding: .2em;
+	}
+}

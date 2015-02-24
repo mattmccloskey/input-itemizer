@@ -1,0 +1,35 @@
+{
+  "name": "InputItemizer",
+  "version": "1.0.0",
+  "description": "An input field which will save multiple values, like tags. ",
+  "main": "InputItemizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattmccloskey/input-itemizer.git"
+  },
+  "keywords": [
+    "mootools",
+    "input",
+    "token",
+    "tags"
+  ],
+  "author": "Matt McCloskey mattmccloskey@mac.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattmccloskey/input-itemizer/issues"
+  },
+  "homepage": "https://github.com/mattmccloskey/input-itemizer",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-minify-css": "^0.4.6",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-uglify": "^1.1.0"
+  }
+}
