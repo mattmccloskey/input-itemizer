@@ -3,3 +3,23 @@ body {
 	max-width: 400px;
 	margin: 3em auto;
 }
+
+code {
+	display: block;
+	background: #efefef;
+	margin: 1em 0;
+	padding: 1em;
+}
+
+.view-on-github {
+	display: inline-block;
+	background-color: #3072b3;
+	background-image: -webkit-linear-gradient(top, #599bdc 0%,#3072b3 100%);
+	padding: .5rem 1.25rem;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	margin: 2em auto;
+	border-radius: 5px;
+}
