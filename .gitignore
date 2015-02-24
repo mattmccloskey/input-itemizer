@@ -1,3 +1,6 @@
 .DS_Storey
 node_modules
-bower_components
+bower_components/*
+!bower_components/mootools
+bower_components/mootools/*
+!bower_components/mootools/dist
