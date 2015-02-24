@@ -21,6 +21,7 @@ $input-itemizer-token-color: #ffffff !default;
 		padding: $input-itemizer-gutter-width;
 		margin: 0 0 $input-itemizer-gutter-width 0;
 		box-sizing: border-box;
+		float: left;
 	}
 	.input-itemizer-token, .input-itemizer-spacer {
 		display: block;
